@@ -1,4 +1,4 @@
--- Run ONCE in an EMPTY database named ecommerce_analysis.
+
 CREATE TABLE customers (
  customer_id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
  first_name VARCHAR(100) NOT NULL, last_name VARCHAR(100) NOT NULL,
